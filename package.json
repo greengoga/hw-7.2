@@ -4,7 +4,8 @@
   "description": "basically another hw",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/greengoga/hw-7.2/issues"
   },
-  "homepage": "https://github.com/greengoga/hw-7.2#readme"
+  "homepage": "https://github.com/greengoga/hw-7.2#readme",
+  "devDependencies": {
+    "eslint": "^9.28.0"
+  }
 }
